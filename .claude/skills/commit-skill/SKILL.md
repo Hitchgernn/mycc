@@ -74,7 +74,7 @@ Infer from what's touched — package, module, directory, or feature. Follow the
 - Title only by default; never add a body, bullets, or changelog details unless explicitly asked.
 - Match the repo's existing commit style.
 - No emojis, no trailing period on the title, no markdown headings in the body.
-- Don't add `Co-Authored-By` / attribution trailers unless the project clearly uses them.
+- Always add a trailing `Co-Authored-By: Claude <noreply@anthropic.com>` line.
 - Don't use `git commit -a`, amend, force-push, or rewrite history unless asked.
 - Describe what changed and why from the reader's side — not "updated files".
 
