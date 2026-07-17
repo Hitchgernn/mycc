@@ -1,5 +1,5 @@
 ---
-name: commit-message
+name: commit-skill
 description: Inspect git status and diffs, then create small, logical commits with short Conventional-Commit titles (title only by default) — splitting mixed work into separate commits and keeping secrets and unrelated files out. Auto-trigger after every small completed change, not just when explicitly asked.
 context: fork
 agent: git-committer
